@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_sim_message">"UIM-карта отсутствует
+Вставьте UIM-карту"</string>
+    <string name="sim_changed_message">Настройте предпочтения</string>
+    <string name="sim_changed_title">Настройка SIM</string>
+    <string name="sim_info">Управление SIM-картами</string>
+    <string name="close">Закрыть</string>
+    <string name="change">Изменить</string>
+    <string name="new_sim_detected">Обнаружена новая SIM-карта:</string>
+    <string name="mobile_data">"Передача данных: "</string>
+    <string name="slot">Слот</string>
+    <string name="carrier_name">(Оператор)</string>
+    <string name="mobile_data_on">ВКЛ</string>
+    <string name="mobile_data_off">ОТКЛ</string>
+    <string name="new_sim_card_label">"Новая SIM-карта: "</string>
+    <string name="default_settings_label">"Текущие настройки: "</string>
+    <string name="voice_call_label">"Голосовые вызовы: "</string>
+    <string name="video_call_label">"Видео вызовы: "</string>
+    <string name="data_connection_label">"SIM для передачи данных: "</string>
+    <string name="data_connection_status_label">"Передача данных: "</string>
+    <string name="always_ask">Спрашивать</string>
+</resources>
