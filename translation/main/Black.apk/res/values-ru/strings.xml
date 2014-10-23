@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_settings">Настройки</string>
+    <string name="black">Черный список</string>
+    <string name="title1">Список</string>
+    <string name="title2">Звонки</string>
+    <string name="title3">Сообщения</string>
+    <string name="add_black">Добавить</string>
+    <string name="clear">Очистить</string>
+    <string name="clear1">Очистить</string>
+    <string name="add_black_from_calllog">Выбрать из журнала звонков</string>
+    <string name="add_black_from_msg">Выбрать из сообщений</string>
+    <string name="add_black_from_keyboard">Ввести вручную</string>
+    <string name="select_all">Все</string>
+    <string name="select_nothing">Снять выдел.</string>
+    <string name="toast">Уведомление</string>
+    <string name="ensure">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="add_blacking">Добавление...</string>
+    <string name="delete_blacking">Удаление...</string>
+    <string name="intercept_number">Проигнорирован звонок от:</string>
+    <string name="date">", в:"</string>
+    <string name="intercept_msg_number">Проигнорировано сообщение от:</string>
+    <string name="intercept_msg_content">"
+Содержание:"</string>
+    <string name="intercept_msg_time">"
+Время:"</string>
+    <string name="empty_black">Черный список пуст</string>
+    <string name="empty_call">Нет проигнорированных звонков</string>
+    <string name="empty_msg">Нет проигнорированных сообщений</string>
+    <string name="clear_calllog_title">Очистка журнала</string>
+    <string name="clear_calllog_message">Очистить журнал звонков?</string>
+    <string name="clear_one_calllog_message">Очистить журнал звонков этого номера?</string>
+    <string name="clear_msglog_title">Очистка истории сообщений</string>
+    <string name="clear_msglog_message">Удалить все сообщения?</string>
+    <string name="recovery">Восстановить</string>
+    <string name="reply">Ответить</string>
+    <string name="delete">Удалить</string>
+    <string name="incoming_call">входящий вызов</string>
+    <string name="outgoing_call">исходящий вызов</string>
+    <string name="missed_call">пропущенный вызов</string>
+    <string name="intercept_mms_call">Игнорирование сообщений и звонков</string>
+    <string name="call">Звонок</string>
+    <string name="send_sms">Сообщение</string>
+    <string name="cannot_call">Невозможно позвонить</string>
+    <string name="mms_recovery_title">Восстановление сообщений</string>
+    <string name="mms_recovery_message">Восстановить историю сообщений?</string>
+    <string name="mms_clear_one_message">Очистить историю сообщений?</string>
+    <string name="add_black_title">Черный список</string>
+    <string name="add_black_message">Добавить этот номер в черный список? Все сообщения от этого номера будут скрыты из приложения SMS</string>
+    <string name="delete_black_title">Удаление из черного списка</string>
+    <string name="delete_black_message">Удалить номер из черного списка и восстановить историю сообщений?</string>
+    <string name="format_month_day">MM/dd</string>
+    <string name="format_month_day_hour_minute">"MM/dd  HH:mm"</string>
+    <string name="recoverying_sms">Восстановление сообщений...</string>
+    <string name="deleting_sms">Удаление сообщений...</string>
+    <string name="importing_sms">Импорт сообщений...</string>
+    <string name="input_null">Введите номер</string>
+    <string name="number_has_exist">Номер уже содержится в черном списке</string>
+    <string name="empty_calllog">Нет звонков</string>
+    <string name="empty_smslog">Нет сообщений</string>
+    <string name="please_select_number">Выберите номер</string>
+</resources>

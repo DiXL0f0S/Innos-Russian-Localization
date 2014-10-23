@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardWidgetFrame android:gravity="center_horizontal" android:id="@id/keyguard_status_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_maxHeight="@dimen/keyguard_security_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.policy.impl.keyguard.KeyguardStatusView android:gravity="top|center" android:orientation="vertical" android:id="@id/keyguard_status_view_face_palm" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/keyguard_accessibility_status">
+        <LinearLayout android:layout_gravity="top|center" android:orientation="vertical" android:id="@id/date_view" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.internal.policy.impl.keyguard.Nb.NbScrollLayout android:id="@id/nb_keyguard_scroll_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/nb_date_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <com.android.internal.policy.impl.keyguard.DrawableTimeView android:tag="hour_0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            <com.android.internal.policy.impl.keyguard.DrawableTimeView android:tag="hour_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lock_screen_time_point" />
+                            <com.android.internal.policy.impl.keyguard.DrawableTimeView android:tag="min_0" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            <com.android.internal.policy.impl.keyguard.DrawableTimeView android:tag="min_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="15.0dip">
+                            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip">
+                                <com.android.internal.policy.impl.keyguard.SmartDateView android:textSize="16.0dip" android:typeface="nb_tickspace" android:textColor="#ffffffff" android:gravity="right" android:tag="date" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                                <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                    <com.android.internal.policy.impl.keyguard.SmartDateView android:textSize="16.0dip" android:typeface="nb_tickspace" android:textColor="#ffffffff" android:tag="week" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" />
+                                    <com.android.internal.policy.impl.keyguard.SmartDateView android:textSize="16.0dip" android:typeface="nb_tickspace" android:textColor="#ffffffff" android:tag="am_pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <View android:background="#ffffffff" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" />
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lock_screen_tips_weather" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/lock_screen_music_bg" android:layout_width="335.0dip" android:layout_height="103.0dip">
+                        <ImageView android:id="@id/music_icon_album" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/lock_screen_music_album_default" />
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <TextView android:textSize="17.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/music_text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" />
+                            <ProgressBar android:id="@id/music_progressbar" android:background="@drawable/lock_screen_music_progressbar_bg" android:layout_width="167.0dip" android:layout_height="3.0px" android:layout_marginTop="11.0dip" android:max="100" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/lock_screen_music_progressbar_drawable" style="?android:attr/progressBarStyleHorizontal" />
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                                <ImageView android:id="@id/music_btn_preview" android:background="@drawable/lock_screen_music_btn_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                                <ImageView android:id="@id/music_btn_play" android:background="@drawable/lock_screen_music_btn_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                                <ImageView android:id="@id/music_btn_next" android:background="@drawable/lock_screen_music_btn_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </com.android.internal.policy.impl.keyguard.Nb.NbScrollLayout>
+            <com.android.internal.policy.impl.keyguard.ClockView android:layout_gravity="right" android:id="@id/clock_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/kg_status_line_font_right_margin">
+                <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/kg_status_clock_font_size" android:textColor="#ffffffff" android:ellipsize="none" android:id="@id/clock_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="2.0dip" />
+                <TextView android:textAppearance="?textAppearanceMedium" android:textSize="@dimen/kg_status_clock_ampm_font_size" android:textColor="#ffffffff" android:ellipsize="none" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="2.0dip" android:layout_toRightOf="@id/clock_text" android:layout_alignBaseline="@id/clock_text" />
+            </com.android.internal.policy.impl.keyguard.ClockView>
+            <include layout="@layout/keyguard_status_area" />
+        </LinearLayout>
+    </com.android.internal.policy.impl.keyguard.KeyguardStatusView>
+</com.android.internal.policy.impl.keyguard.KeyguardWidgetFrame>

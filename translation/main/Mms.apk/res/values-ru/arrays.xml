@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <string-array name="default_smiley_names">
+        <item>Счастье</item>
+        <item>Грусть</item>
+        <item>Подмигивает</item>
+        <item>С высунутым языком</item>
+        <item>Удивление</item>
+        <item>Поцелуй</item>
+        <item>Кричит</item>
+        <item>Классно</item>
+        <item>Жадность</item>
+        <item>Ляпнул</item>
+        <item>В замешательстве</item>
+        <item>Ангел</item>
+        <item>Нерешительность</item>
+        <item>Плачет</item>
+        <item>Рот на замке</item>
+        <item>Смеется</item>
+        <item>Озадачен</item>
+        <item>Сердце</item>
+        <item>Бесится</item>
+        <item>Ухмыляется</item>
+        <item>Непроницаемое лицо</item>
+    </string-array>
+    <string-array name="empty_subject_strings">
+        <item>без темы</item>
+    </string-array>
+    <string-array name="pre_define_message_template">
+        <item>Я перезвоню вам позже.</item>
+        <item>Я на конференции, перезвоню вам позже.</item>
+        <item>Позвоните позже.</item>
+        <item>Вы не могли бы мне перезвонить?</item>
+    </string-array>
+    <string-array name="save_time">
+        <item>@string/mms_max</item>
+        <item>@string/mms_one_week</item>
+        <item>@string/mms_two_days</item>
+    </string-array>
+    <string-array name="save_time_values">
+        <item>0</item>
+        <item>604800</item>
+        <item>172800</item>
+    </string-array>
+    <string-array name="box_type">
+        <item>@string/type_inbox</item>
+        <item>@string/type_sent</item>
+        <item>@string/type_draft</item>
+        <item>@string/type_outbox</item>
+    </string-array>
+    <string-array name="slot_type">
+        <item>@string/type_all</item>
+        <item>@string/type_slot1</item>
+        <item>@string/type_slot2</item>
+    </string-array>
+    <string-array name="entries_sms_store_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_sms_store">
+        <item>@string/pref_sms_store_phone</item>
+        <item>@string/pref_sms_store_card</item>
+    </string-array>
+    <string-array name="number_options">
+        <item>@string/menu_call</item>
+        <item>@string/title_send_message</item>
+        <item>@string/menu_add_to_contacts</item>
+    </string-array>
+    <string-array name="select_dialog_items">
+        <item>1 секунда</item>
+        <item>2 секунды</item>
+        <item>3 секунды</item>
+        <item>4 секунды</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+        <item>8 секунд</item>
+        <item>9 секунд</item>
+        <item>10 секунд</item>
+        <item>Другое</item>
+    </string-array>
+</resources>

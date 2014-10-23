@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, QRDFileExplorer!</string>
+    <string name="app_name">Файлы</string>
+    <string name="app_name_dir_sel">Выберите папку</string>
+    <string name="app_name_file_sel">Выберите файл</string>
+    <string name="sdcard">SD-карта</string>
+    <string name="up">Вверх</string>
+    <string name="menu_copy">Копировать</string>
+    <string name="menu_move">Переместить</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_rename">Переименовать</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_property">Свойства</string>
+    <string name="menu_exit">Выход</string>
+    <string name="context_menu_name">Опции файла</string>
+    <string name="dialog_deleting_confirm">Удалить?</string>
+    <string name="dialog_overwrite_confirm">Перезаписать %s?</string>
+    <string name="dialog_rename_title">Введите новое имя</string>
+    <string name="toast_operate_failed">Ошибка</string>
+    <string name="progress_title">Подождите</string>
+    <string name="info_copy_file">Копирование...</string>
+    <string name="info_move_file">Перемещение...</string>
+    <string name="info_deleting_file">Удаление...</string>
+    <string name="format_file_info">"Название: %1$s
+Путь: %2$s
+Изменен: %3$s"</string>
+    <string name="format_property_info">"Система
+Всего: %1$s
+Доступно: %2$s
+------------------
+SD-карта
+Всего: %3$s
+Доступно: %4$s"</string>
+    <string name="format_property_info_sys">"Система
+Всего: %1$s
+Доступно: %2$s
+"</string>
+    <string name="format_property_info_inside">"------------------
+Внутренняя память
+Всего: %1$s
+Доступно: %2$s
+"</string>
+    <string name="format_property_info_sdcard">"------------------
+SD-карта
+Всего: %1$s
+Доступно: %2$s
+"</string>
+    <string name="format_property_info_usb">"------------------
+USB-накопитель
+Всего: %1$s
+Доступно: %2$s
+"</string>
+    <string name="menu_new_folder">Создать папку</string>
+    <string name="new_folder">Новая папка</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="toast_select_files">Выберите файлы</string>
+    <string name="toast_no_sd">SD-карта отсутствует</string>
+    <string name="toast_file_exists">Файл уже существует</string>
+    <string name="can_not_find_a_suitable_program_to_open_this_file">Не найдено приложение для открытия файла</string>
+    <string name="can_not_open_file">Ошибка открытия</string>
+    <string name="name_is_too_long">Название слишком большое</string>
+    <string name="name_include_wrong_char">"Невозможно переименовать.
+Название не должно содержать символы (.   ' \" ;)"</string>
+    <string name="name_illlegal">"Невозможно переименовать.
+Название не должно быть пустым"</string>
+    <string name="open_as">Открыть как</string>
+    <string name="type_text">Текст</string>
+    <string name="type_audio">Аудио</string>
+    <string name="type_video">Видео</string>
+    <string name="type_image">Изображение</string>
+    <string name="toast_filename_too_long">Название файла слишком большое</string>
+    <string name="internal">Телефон</string>
+    <string name="usb">USB-накопитель</string>
+    <string name="sort">Сортировка</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
+    <string name="image">Изображения</string>
+    <string name="document">Документы</string>
+    <string name="archive">Архивы</string>
+    <string name="application">Приложения</string>
+    <string name="recent">Недавние</string>
+    <string name="delete_record">Убрать из недавнего</string>
+    <string name="search_msg">Введите часть названия файла</string>
+    <string name="search_result">Результаты поиска:</string>
+    <string name="loading">Загрузка...</string>
+    <string name="shortcuts">Ярлык на рабочий стол</string>
+    <string name="sdcard_missing_message">Your phone does not have an SD card inserted.</string>
+    <string name="file_not_find">Файл “%s” не найден</string>
+	<string name="neicunsize">10G</string>
+    <string name="sdcardsize">4G</string>
+    <string name="search">Поиск</string>
+    <string name="bidfile_text">bigfile</string>
+    <string name="recent_text">Недавние</string>
+    <string name="nb_list_item_info_format">yyy-MM-dd\u0009HH:mm</string>
+    <string name="nb_list_item_folder_item_count">\u0009\u0009%s item</string>
+</resources>

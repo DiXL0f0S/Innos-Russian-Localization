@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Календарь</string>
+    <string name="choose_date">Выберите дату</string>
+    <string name="add_account">Добавить аккаунт</string>
+    <string name="no_target_activity">Приложения календаря не найдено</string>
+    <string name="no_account_title">Аккаунт отсутствует</string>
+    <string name="no_account_content">Синхронизация невозможна без аккаунта календаря</string>
+    <string name="monday">ПН</string>
+    <string name="tuesday">ВТ</string>
+    <string name="wednesday">СР</string>
+    <string name="thursday">ЧТ</string>
+    <string name="friday">ПТ</string>
+    <string name="saturday">СБ</string>
+    <string name="sunday">ВС</string>
+</resources>

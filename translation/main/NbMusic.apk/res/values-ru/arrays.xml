@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_navigate_titles">
+        <item>Вся музыка</item>
+        <item>Избранное</item>
+        <item>Исполнители</item>
+        <item>Альбомы</item>
+        <item>Папки</item>
+        <item>Плейлисты</item>
+    </string-array>
+    <string-array name="menu_dialog_titles">
+        <item>Воспроизвести</item>
+        <item>Добавить в плейлист</item>
+        <item>Убрать из плейлиста</item>
+        <item>На звонок CDMA</item>
+        <item>На звонок GSM</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="home_group_localmanager_list">
+        <item>Музыка</item>
+        <item>Избранное</item>
+    </string-array>
+    <string-array name="home_group_playlist_list">
+        <item>Плейлисты</item>
+        <item>Создать плейлист</item>
+    </string-array>
+</resources>

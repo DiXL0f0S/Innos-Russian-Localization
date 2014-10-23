@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>--><resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">%1$s диалогов будут удалены.</item>
+        <item quantity="one">Один диалог будет удален.</item>
+    </plurals>
+    <plurals name="slide_duration">
+        <item quantity="other">%s с</item>
+        <item quantity="one">%s с</item>
+        <item quantity="few">%s с</item>
+    </plurals>
+    <plurals name="search_results_title">
+        <item quantity="other">%1$s результатов для %2$s</item>
+        <item quantity="one">%1$s результат для %2$s</item>
+    </plurals>
+    <plurals name="message_count_notification_overflow">
+        <item quantity="other">+ %1$s дополнительных сообщений</item>
+        <item quantity="one">+ %1$s дополнительное сообщение</item>
+    </plurals>
+    <plurals name="recipient_count">
+        <item quantity="other">%1$s пользователей</item>
+    </plurals>
+    <plurals name="pref_title_smsc">
+        <item quantity="other">Задать номер smsc слота %d</item>
+        <item quantity="one">Задать номер smsc</item>
+    </plurals>
+</resources>
